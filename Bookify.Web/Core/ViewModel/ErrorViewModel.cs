@@ -1,9 +1,11 @@
-namespace Bookify.Web.Models
+namespace Bookify.Web.Core.ViewModel
 {
+
     public class ErrorViewModel
     {
         public string? RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+
 }
